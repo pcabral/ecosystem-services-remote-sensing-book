@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite the archived version below together with the book."
+title: "Companion resources for Monitoring Dynamics in Ecosystem Service Indicators with Remote Sensing"
+type: software
+authors:
+  - family-names: Cabral
+    given-names: Pedro
+    affiliation: "NOVA Information Management School (NOVA IMS), NOVA University Lisbon"
+identifiers:
+  - type: doi
+    value: 10.6084/m9.figshare.33439819
+repository-code: "https://github.com/pcabral/ecosystem-services-remote-sensing-book"
+license: MIT
+keywords:
+  - ecosystem services
+  - remote sensing
+  - InVEST
+  - CORINE Land Cover
+  - MODIS
+  - SDG 15.3.1
+references:
+  - type: book
+    title: "Monitoring Dynamics in Ecosystem Service Indicators with Remote Sensing"
+    authors:
+      - family-names: Cabral
+        given-names: Pedro
+    publisher:
+      name: Elsevier

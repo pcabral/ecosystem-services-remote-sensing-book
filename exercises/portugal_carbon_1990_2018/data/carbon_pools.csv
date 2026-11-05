@@ -1,0 +1,46 @@
+lucode,lulc_name,c_above,c_below,c_soil,c_dead
+1,Continuous urban fabric,0.00,0.00,0.00,0.00
+2,Discontinuous urban fabric,0.00,0.00,3.23,0.00
+3,Industrial or commercial units,0.00,0.00,0.00,0.00
+4,Road and rail networks and associated land,0.00,0.00,0.00,0.00
+5,Port areas,0.00,0.00,0.00,0.00
+6,Airports,0.00,0.00,0.50,0.00
+7,Mineral extraction sites,0.00,0.00,0.00,0.00
+8,Dump Sites,0.00,0.00,0.00,0.00
+9,Construction Sites,0.00,0.00,0.00,0.00
+10,Green urban areas,0.00,0.00,6.46,0.00
+11,Sport and Leisure facilities,0.00,0.00,9.42,0.00
+12,Non-irrigated arable land,0.31,0.31,38.00,0.00
+13,Permanently irrigated land,0.31,0.31,54.00,0.00
+14,Rice Fields,0.00,0.00,5.00,0.00
+15,Vineyards,2.84,2.22,35.50,0.00
+16,Fruit trees and berry plantations,0.84,0.40,31.00,0.00
+17,Olive groves,7.85,1.15,43.00,0.00
+18,Pastures,8.46,1.48,6.00,0.00
+19,Annual crops associated with permanent crops,0.00,0.00,13.00,0.00
+20,Complex cultivation patterns,2.09,1.05,31.00,0.00
+21,Land principally occupied by agriculture,0.00,0.00,11.37,0.00
+22,Agro-forestry areas,22.91,5.54,61.53,1.44
+23,Broad-leaved forest,36.67,21.10,120.00,1.88
+24,Coniferous forest,18.22,2.85,73.00,3.26
+25,Mixed Forest,39.95,21.56,120.00,2.43
+26,Natural grasslands,0.00,0.00,3.40,0.00
+27,Moors and heathland,9.07,5.15,106.00,1.57
+28,Sclerophyllous vegetation,0.00,0.00,17.74,0.00
+29,Transitional woodland-shrub,8.47,4.46,109.57,0.72
+30,Beaches and dunes sands,0.00,0.00,0.00,0.00
+31,Bare rocks,1.63,3.05,34.50,0.35
+32,Sparsely vegetated areas,0.00,0.00,1.52,0.00
+33,Burnt areas,0.00,0.00,1.52,0.00
+34,Glaciers and perpetual snow,0.00,0.00,0.00,0.00
+35,Inland marshes,0.00,0.00,1.50,0.00
+36,Peat bogs,0.00,0.00,0.00,0.00
+37,Salt Marshes,0.00,0.00,2.00,0.00
+38,Salines,0.00,0.00,0.00,0.00
+39,Intertidal flats,0.00,0.00,0.00,0.00
+40,Water courses,0.00,0.00,0.00,0.00
+41,Water bodies,0.00,0.00,0.00,0.00
+42,Coastal lagoons,0.00,0.00,0.00,0.00
+43,Estuaries,0.00,0.00,0.00,0.00
+44,Sea and ocean,0.00,0.00,0.00,0.00
+48,NODATA,0.00,0.00,0.00,0.00

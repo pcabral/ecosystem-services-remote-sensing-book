@@ -1,0 +1,147 @@
+{
+  "rasters": [
+    {
+      "source": "U2000_CLC1990_V2020_20u1.tif",
+      "source_sha256": "2a9678464b9738fea274eda664c43f328fed54aec4cc7a3bc8eb17ce59950bfd",
+      "output": "clc1990_portugal.tif",
+      "crs": "PROJCS[\"ETRS89-extended / LAEA Europe\",GEOGCS[\"ETRS89\",DATUM[\"European_Terrestrial_Reference_System_1989\",SPHEROID[\"GRS 1980\",6378137,298.257222101004,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6258\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4258\"]],PROJECTION[\"Lambert_Azimuthal_Equal_Area\"],PARAMETER[\"latitude_of_center\",52],PARAMETER[\"longitude_of_center\",10],PARAMETER[\"false_easting\",4321000],PARAMETER[\"false_northing\",3210000],UNIT[\"metre\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3035\"]]",
+      "pixel_size_m": [
+        100.0,
+        100.0
+      ],
+      "shape": [
+        5686,
+        3415
+      ],
+      "nodata": -128.0,
+      "class_pixel_counts": {
+        "1": 12036,
+        "2": 121760,
+        "3": 15644,
+        "4": 460,
+        "5": 1521,
+        "6": 3769,
+        "7": 6414,
+        "8": 342,
+        "9": 2130,
+        "10": 1343,
+        "11": 4323,
+        "12": 1164204,
+        "13": 123158,
+        "14": 55819,
+        "15": 205922,
+        "16": 95258,
+        "17": 278279,
+        "18": 53126,
+        "19": 447858,
+        "20": 636089,
+        "21": 718736,
+        "22": 568129,
+        "23": 1149948,
+        "24": 776376,
+        "25": 547049,
+        "26": 194649,
+        "27": 369906,
+        "28": 226662,
+        "29": 833110,
+        "30": 11439,
+        "31": 44010,
+        "32": 77745,
+        "33": 45120,
+        "35": 940,
+        "37": 19124,
+        "38": 7464,
+        "39": 790,
+        "40": 20661,
+        "41": 28462,
+        "42": 8424,
+        "43": 28359,
+        "44": 2968
+      }
+    },
+    {
+      "source": "U2018_CLC2018_V2020_20u1.tif",
+      "source_sha256": "69057d527b4338b89f58cf15693effcf18017611ff48144e5c491d083cf1b004",
+      "output": "clc2018_portugal.tif",
+      "crs": "PROJCS[\"ETRS89-extended / LAEA Europe\",GEOGCS[\"ETRS89\",DATUM[\"European_Terrestrial_Reference_System_1989\",SPHEROID[\"GRS 1980\",6378137,298.257222101004,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6258\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4258\"]],PROJECTION[\"Lambert_Azimuthal_Equal_Area\"],PARAMETER[\"latitude_of_center\",52],PARAMETER[\"longitude_of_center\",10],PARAMETER[\"false_easting\",4321000],PARAMETER[\"false_northing\",3210000],UNIT[\"metre\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3035\"]]",
+      "pixel_size_m": [
+        100.0,
+        100.0
+      ],
+      "shape": [
+        5686,
+        3415
+      ],
+      "nodata": -128.0,
+      "class_pixel_counts": {
+        "1": 36399,
+        "2": 207218,
+        "3": 43375,
+        "4": 12274,
+        "5": 2100,
+        "6": 4784,
+        "7": 14663,
+        "8": 1240,
+        "9": 2223,
+        "10": 2910,
+        "11": 14476,
+        "12": 673062,
+        "13": 259569,
+        "14": 44274,
+        "15": 211035,
+        "16": 93527,
+        "17": 347858,
+        "18": 228608,
+        "19": 270435,
+        "20": 634151,
+        "21": 732639,
+        "22": 771778,
+        "23": 786686,
+        "24": 395857,
+        "25": 469136,
+        "26": 41204,
+        "27": 469201,
+        "28": 243394,
+        "29": 1614944,
+        "30": 9713,
+        "31": 1419,
+        "32": 46716,
+        "33": 69698,
+        "35": 1661,
+        "37": 17814,
+        "38": 6757,
+        "39": 4067,
+        "40": 18323,
+        "41": 66809,
+        "42": 7393,
+        "43": 27788,
+        "44": 2348
+      }
+    }
+  ],
+  "code_check": {
+    "clc1990_portugal.tif": {
+      "codes_missing_from_table": [],
+      "table_codes_absent_from_raster": [
+        34,
+        36,
+        48
+      ]
+    },
+    "clc2018_portugal.tif": {
+      "codes_missing_from_table": [],
+      "table_codes_absent_from_raster": [
+        34,
+        36,
+        48
+      ]
+    }
+  },
+  "municipalities": {
+    "source": "Continente_CAOP2025.gpkg",
+    "layer": "cont_municipios",
+    "n_municipalities": 278,
+    "simplify_tolerance_m": 50.0,
+    "output": "municipalities.gpkg"
+  }
+}

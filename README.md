@@ -10,6 +10,22 @@ The resources are designed to support teaching, learning, and practical explorat
 
 The exercises are intended to help readers move from environmental observations to interpretable ecosystem service indicators and decision-relevant information. Topics covered by the companion materials may include ecosystem dynamics, scenario-based projection, uncertainty and confidence assessment, spatial analysis, remote sensing, and environmental decision support.
 
+## Exercises
+
+| # | Exercise | What it covers | Book chapters |
+|---|---|---|---|
+| 1 | [Carbon storage change in mainland Portugal, 1990–2018](exercises/portugal_carbon_1990_2018/) | CORINE Land Cover preparation, InVEST carbon model, transition attribution, valuation ranges, ensemble confidence bands, MODIS NDVI trends, fire disturbance and recovery, SDG 15.3.1 productivity trajectory | 1–6, 8 |
+
+[`docs/chapter_map.md`](docs/chapter_map.md) lists, chapter by chapter, where each part of the book is put into practice.
+
+**Quick start**
+
+```bash
+conda env create -f environment.yml
+conda activate es-rs-book
+jupyter lab exercises/portugal_carbon_1990_2018
+```
+
 ## Resources
 
 Materials will be added and updated as they are developed and used in graduate teaching and professional training.
